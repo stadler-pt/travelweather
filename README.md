@@ -27,13 +27,13 @@ To start the project locally node.js has to be installed.
 $ git clone https://github.com/stadler-pt/travelweather travel      \
 $ cd travel   \
 
-Create a .env file with the following valiables:
+Create a .env file with the following valiables:  \
 GEO_NAME=***********************************  \
 GEO_URL=************************************  \
 SKY_KEY=************************************  \
 SKY_URL=************************************  \
 PIX_KEY=************************************  \
-PIX_URL=************************************  \
+PIX_URL=************************************  
 
 $ npm install   \
 $ npm run build-prod    \

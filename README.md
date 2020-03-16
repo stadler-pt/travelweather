@@ -9,8 +9,8 @@ The following technologies / frameworks were used:
 - JavaScript
 - Node.js
 - Express
-- Webpack
-- Jest
+- Webpack for assets management
+- Jest for testing
 - API: Restcountries, Pixabay, Geonames, Darksky
 
 ## Description
@@ -25,13 +25,22 @@ Project code is available at https://github.com/stadler-pt/travelweather
 To start the project locally node.js has to be installed.
 
 $ git clone https://github.com/stadler-pt/travelweather travel      \
-$ cd travel   \
+$ cd travel
+
+Create a .env file with the following valiables (change **** with your information):  \
+GEO_NAME=***********************************  \
+GEO_URL=http://api.geonames.org/findNearbyPostalCodesJSON?placename=  \
+SKY_KEY=************************************  \
+SKY_URL=https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/  \
+PIX_KEY=************************************  \
+PIX_URL=https://cors-anywhere.herokuapp.com/https://pixabay.com/api/?key= 
+
 $ npm install   \
 $ npm run build-prod    \
 $ npm run start
 
 Project will run at localhost:7000
 
-Development mode can be entered with
-$ npm run build-dev
+Development mode can be entered with  \
+$ npm run build-dev \
 (node server needs to run for API calls)

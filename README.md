@@ -25,13 +25,9 @@ Project code is available at https://github.com/stadler-pt/travelweather
 To start the project locally node.js has to be installed.
 
 $ git clone https://github.com/stadler-pt/travelweather travel
-
 $ cd travel
-
 $ npm install
-
 $ npm run build-prod
-
 $ npm run start
 
 Project will run at localhost:7000

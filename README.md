@@ -25,7 +25,7 @@ Project code is available at https://github.com/stadler-pt/travelweather
 To start the project locally node.js has to be installed.
 
 $ git clone https://github.com/stadler-pt/travelweather travel      \
-$ cd travel   \
+$ cd travel
 
 Create a .env file with the following valiables:  \
 GEO_NAME=***********************************  \

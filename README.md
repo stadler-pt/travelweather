@@ -20,14 +20,14 @@ After the chain of API calls, the content of the data array will be called and d
 
 ## To run the project
 
-Project code is available at https://stadler-pt.github.io/travelweather/
+Project code is available at https://github.com/stadler-pt/travelweather
 
 To start the project locally node.js has to be installed.
 
-$ git clone https://github.com/stadler-pt/travelweather travel
-$ cd travel
-$ npm install
-$ npm run build-prod
+$ git clone https://github.com/stadler-pt/travelweather travel      \
+$ cd travel   \
+$ npm install   \
+$ npm run build-prod    \
 $ npm run start
 
 Project will run at localhost:7000

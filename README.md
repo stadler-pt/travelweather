@@ -9,8 +9,8 @@ The following technologies / frameworks were used:
 - JavaScript
 - Node.js
 - Express
-- Webpack
-- Jest
+- Webpack for assets management
+- Jest for testing
 - API: Restcountries, Pixabay, Geonames, Darksky
 
 ## Description

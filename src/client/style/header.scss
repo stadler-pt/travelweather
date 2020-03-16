@@ -1,0 +1,62 @@
+.hero {
+    height: 100vh;
+    max-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToAction {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        text-shadow: 0 0 5px black;
+        text-align: center;
+        width: 90vw;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    #country {
+        border-radius: 2em;
+        margin: 1em 0 0 0;
+        outline: none;
+        padding: 0.3em;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    input {
+        border-radius: 2em;
+        margin: 1em 0 0 0;
+        outline: none;
+        padding: 0.3em;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    .submit {
+        border-radius: 2em;
+        outline: none;
+        padding: 0.2em 1em;
+        text-align: center;
+        font-size: 0.6em;
+        cursor: pointer;
+    }
+}

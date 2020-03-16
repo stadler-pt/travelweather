@@ -41,6 +41,6 @@ $ npm run start
 
 Project will run at localhost:7000
 
-Development mode can be entered with
-$ npm run build-dev
+Development mode can be entered with  \
+$ npm run build-dev \
 (node server needs to run for API calls)

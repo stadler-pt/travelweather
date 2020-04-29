@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 })
 
 // Send Api data for calls
-app.get("/sensible", (req, res) => {
+app.get("https://tender-ptolemy-4b0ef4.netlify.app/sensible", (req, res) => {
   const geoName = process.env.GEO_NAME
   const geoUrl = process.env.GEO_URL
   const skyKey = process.env.SKY_KEY

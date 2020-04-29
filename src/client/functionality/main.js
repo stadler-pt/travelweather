@@ -21,8 +21,6 @@ const send = (e) => {
     } else {
     getSensible("/sensible")
         .then((data) => {
-            console.log("data answer: ")
-            console.log(data)
             getGeo(data, text, country)
             .then((pass) => {
                 if (pass == undefined) {

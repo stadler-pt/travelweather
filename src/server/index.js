@@ -43,8 +43,6 @@ app.get("https://tender-ptolemy-4b0ef4.netlify.app/sensible", (req, res) => {
   const pixKey = process.env.PIX_KEY
   const pixUrl = process.env.PIX_URL
   let sensibleData = [geoName, geoUrl, skyKey, skyUrl, pixKey, pixUrl]
-  console.log("Server: ")
-  console.log(sensibleData)
   res.send(sensibleData)
 })
 

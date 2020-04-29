@@ -3,8 +3,6 @@ import { timeConverter } from "./style"
 // get Api data
 const getSensible = async (url = "") => { 
     const res = await fetch(url);
-    console.log("Call: ")
-    console.log(res)
     try {
         const data = await res.json()
         return data

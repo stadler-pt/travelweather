@@ -24,8 +24,8 @@ app.use(cors())
 app.use(express.static("dist"))
 
 // Start server
-const port = 7000
-const server = app.listen(port, ()=>{
+const PORT = 7000 || process.env.PORT;
+const server = app.listen(PORT, ()=>{
     console.log(`running on localhost: ${port}`);
 })
 
